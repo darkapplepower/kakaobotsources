@@ -143,7 +143,7 @@ module.exports = (function () {
         return function(){
             u.reply(normalize(change(a.replace("/영한 ", ""))));
         };
-    }
+    }();
     Date.prototype.getClock = function (type) {
         if (type === 1) {
             return getClock2.call(this);
@@ -507,4 +507,5 @@ module.exports = (function () {
             sortTable: sortTable
         };
     }();
+    return "닼토 재입대";
 })()
