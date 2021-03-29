@@ -201,6 +201,7 @@ function dogsound(msg, replier){
     while(Number(art.get())!==co){
         Thread.sleep(30);
     }
+    var result=[];
     list.sort();
     list.forEach(x=>{
         if(x===pre){
